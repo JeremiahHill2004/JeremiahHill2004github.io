@@ -1,0 +1,124 @@
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="main.css" />
+		<title> My Website! </title>
+
+		<script>
+ 		function banner(){
+ 		var text = confirm("free virus just click ok");
+ 		return text;
+ 		}
+
+ 		function answer(){
+ 			var radio = document.getElementsByName("trivia");
+ 			var selection = false;
+ 			var message = "";
+
+ 			for( var i = 0; i < radio.length; i++) {
+				if(radio[i].value == "yes" && radio[i].checked == true) {
+				selection = true;
+				} //end if statement
+ 			} //end for loop
+ 			if(selection == true) {
+ 				message = message + "<b><p style='color:green'>yee</p></b>";
+ 			} else {
+ 				message = message + "<b><p style='color:red'>YOU HAVE FAILED NOW I REQUIRE YOU TO LEAVE FOREVER</p></b>";
+ 			}
+ 				document.getElementById("response").innerHTML = message;	
+
+
+
+ 		} //end function answer
+
+
+
+
+
+
+
+
+		</script>
+		
+	</head>
+	<body id="background">
+		<center>
+			<a href="https://www.roblox.com/home" onclick="return banner()"> <header id="banner"> Hello Internet! </header> </a>
+		</center>
+		<nav>
+ 			<ul id="navmenu">
+				<li class="navitem"> <a href="file:///C:/Users/random/Desktop/YEA%20THAT%20ONE/coming%20soon!%201">my reference website</a></li>
+				<li class="navitem"> <a href="file:///C:/Users/random/Desktop/YEA%20THAT%20ONE/coming%20soon!%202">my games </a> </li>
+				<li class="navitem"> <a href="file:///C:/Users/random/Desktop/YEA%20THAT%20ONE/coming%20soon!%203">ya like jazz? </a> </li>
+			</ul>
+		</nav>
+
+		<div class="rightside"> 
+        bruh moment
+		</div>
+        <div class="leftside"> 
+        theres a bruh moment over there 
+        </div>
+        <div class="clearfloat">
+        </div>
+		
+
+
+
+
+		<h1>
+			<center> <u> <i> Title </i> </u> </center>
+		</h1>
+		<center>
+			<p class="blue"> This is one of my <u><strong>first websites</strong></u> if it doesn't look <span class="red">right</span> tell me I appreciate some <i>feedback</i>. </p>
+		</center>
+		<div class="green">
+				<ul> A little Bit About Me.
+					<li>I like Cheese and Ham Sandwiches </li>
+					<li> I am in tenth grade </li>
+					<li> Am I doing it right? </li>
+				</ul> 
+		</div>
+		<hr />
+		<img width="15%"src="https://dijf55il5e0d1.cloudfront.net/images/na/6/4/0/64000_1000.jpg"/>
+		<img src="https://steamcdn-a.akamaihd.net/steam/apps/359550/header.jpg?t=1585594789"/> <br />
+		This is a picture of cheese and this is a picture of a video game i play
+		<hr />
+		<center> Jeremiah Hill </center>
+		<center> <a href="https://www.youtube.com/"> This is Youtube </a> </center>
+		<center>
+			<div class="type">
+				<h2> Trivia Question of the day</h2>
+				<h3> Why did my wife leave me? </h3>
+				<form>
+					<div id="response"> </div>
+						<input type="radio" name="trivia" value="no"> No <br>
+						<input type="radio" name="trivia" value="no"> Yes <br>
+						<input type="radio" name="trivia" value="no"> Maybe <br>
+						<input type="radio" name="trivia" value="yes"> Wait Wat <br>
+						<input onclick="answer()" type="button" value="yo breh click">
+				</form> 
+
+
+			</div>
+		</center>
+		<p> Hello World! </p>
+
+<video width="400" height="220" controls>
+<source src="http://www.w3schools.com/HTML/mov_bbb.mp4" type="video/mp4">
+	Your browser does not support HTML5 video. </video>
+<audio width="400" height="220" controls>
+	<source src="http://www.w3schools.com/tags/horse.mp3" type="audio/wav"controls>
+		Your browser does not support HTML5 audio.
+	</audio>
+
+
+
+
+
+
+
+<center>
+	<footer id="footer"> This Website was created by Jeremiah Hill </footer>
+</center>
+	</body>
+</html>
